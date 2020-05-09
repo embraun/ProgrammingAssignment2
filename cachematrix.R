@@ -1,4 +1,7 @@
-#making cached inverted matrix:
+#Coursera Week 3: peer graded assignement
+#author: melissa.braun@nct-heidelberg.de
+
+#inverting a matrix to cache its result:
 
 #input matrix instead of vector
 makeCacheMatrix <- function(x = matrix()) { 
@@ -24,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-#returning a matrix that is the inverse of x
+#retrieving the cached matrix:
 
 cacheSolve <- function(x, ...) {
     
